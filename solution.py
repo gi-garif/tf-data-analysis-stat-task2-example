@@ -14,5 +14,5 @@ def solution(p: float, x: np.array) -> tuple:
     loc = x.mean()
     scale = np.sqrt(np.var(x)) / np.sqrt(len(x))
     xmax = np.max(x)
-    return xmax, (xmax-0.324)/alpha**(1/len(x))+0.324
+    return xmax, (xmax-0.294)/alpha**(1/len(x))+0.294
 
